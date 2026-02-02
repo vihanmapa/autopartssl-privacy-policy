@@ -50,7 +50,7 @@ We may share limited information only in the following cases:
 ## Data Security
 
 We take reasonable measures to protect your data. All data transmission is encrypted in transit using secure protocols.
-
+Location data is used to tag accident locations and enable roadside assistance services. Location data is accessed only during active use of these features and is not tracked continuously.
 ---
 
 ## Data Retention and Deletion
