@@ -21,7 +21,7 @@
 <body>
 
 <h1>Privacy Policy for Autofy</h1>
-<p><strong>Effective Date:</strong> 08 November 2026</p>
+<p><strong>Effective Date:</strong> 09 November 2026</p>
 
 <p>
 Autofy, formerly known as AutoPartsSL, is operated by Vihan Mapalagama (“we”, “us”, or “our”).
@@ -41,17 +41,24 @@ This Privacy Policy explains how we collect, use, disclose, and protect your inf
 <p>
 If you sign in with Google, Google provides your name and email address to us through our authentication provider.
 Some accounts sign in with a one-time password sent to a phone number.
+We also store a unique account identifier for each account.
 </p>
 
 <h3>Vehicle and Listing Information</h3>
 <ul>
   <li>Vehicle make, model, and year, including vehicles you save in the app</li>
   <li>Auto part details, photos, and descriptions you upload</li>
-  <li>For sellers: store details you choose to publish, such as shop name, location, and contact numbers</li>
+  <li>For sellers: optional proof files you attach to a listing, as a photo or a PDF (for example an invoice or warranty card)</li>
+  <li>For sellers: store details you choose to publish, such as shop name, store address and city, map location, and contact numbers</li>
   <li>Quotation requests you submit through the app</li>
 </ul>
 <p>
 Published listings and store details are visible to other users of the app.
+</p>
+<p>
+Proof files are optional and are not shown on the listing page. They may be reviewed by us to verify a listing.
+They are stored with our file storage provider in the same storage area as listing photos, which is not private: a person who has the exact link to a file may be able to open it without signing in.
+Please do not upload documents that contain personal or financial information you would not want others to see.
 </p>
 
 <h3>Location Information</h3>
@@ -60,14 +67,18 @@ If you use features that need your location, such as accident reporting or roads
 Location data is not collected in the background.
 </p>
 <p>
-To show a place name for your location, the coordinates are sent to <strong>BigDataCloud</strong>.
-When a seller sets a store location on a map, the coordinates are sent to <strong>Geoapify</strong> to look up an address.
+To show a place name for your location, your device sends the coordinates directly to <strong>BigDataCloud</strong>.
+BigDataCloud also receives your device&rsquo;s IP address, and states that it uses the pairing of coordinates and IP address to improve its own IP geolocation accuracy.
+When a seller sets a store location on a map, the device sends the coordinates directly to <strong>Geoapify</strong> to look up an address.
+Geoapify keeps request information, including the request content, IP address and a timestamp, for operating its service, and states that data from successful requests is generally kept for no longer than 24 hours.
+These two providers handle that data under their own privacy policies.
 </p>
 
 <h3>Technical Information</h3>
 <p>
+When a listing is viewed, we record the view with a random session identifier that is not linked to your account, so that sellers can see how many views their listings received.
 Google Play may provide us with aggregated crash and performance reports.
-Our hosting and backend providers may keep standard technical logs needed to run the service.
+Our hosting, backend and location-lookup providers may keep standard technical logs, such as IP addresses and request details, needed to run their services.
 </p>
 
 <h2>2. How We Use Your Information</h2>
@@ -92,7 +103,7 @@ We use third-party service providers to operate the app, including:
   <li><strong>Firebase</strong> for web hosting</li>
 </ul>
 <p>
-These providers process data on our behalf. We do not sell your personal data.
+Supabase and Firebase process data on our behalf. Google, BigDataCloud and Geoapify receive data directly from your device and handle it under their own policies, as described above. We do not sell your personal data.
 AI Scan features are not active in the current version of the app; we will update this policy before enabling them.
 </p>
 
